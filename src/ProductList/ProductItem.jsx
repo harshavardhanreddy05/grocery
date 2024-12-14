@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import product1 from '../images/category-baby-care.jpg'
-import product2 from '../images/category-atta-rice-dal.jpg'
-import product3 from '../images/category-bakery-biscuits.jpg'
-import product4 from '../images/category-chicken-meat-fish.jpg'
-import product5 from '../images/category-cleaning-essentials.jpg'
-import product6 from '../images/category-dairy-bread-eggs.jpg'
-import product7 from '../images/category-instant-food.jpg'
-import product8 from '../images/category-pet-care.jpg'
-import product9 from '../images/category-snack-munchies.jpg'
-import product10 from '../images/category-tea-coffee-drinks.jpg'
+import product1 from '../images/product-img-1.jpg'
+import product2 from '../images/product-img-2.jpg'
+import product3 from '../images/product-img-3.jpg'
+import product4 from '../images/product-img-4.jpg'
+import product5 from '../images/product-img-5.jpg'
+import product6 from '../images/product-img-6.jpg'
+import product7 from '../images/product-img-7.jpg'
+import product8 from '../images/product-img-8.jpg'
+import product9 from '../images/product-img-9.jpg'
+import product10 from '../images/product-img-10.jpg'
 import Swal from 'sweetalert2';
 
 const ProductItem = () => {
@@ -117,9 +117,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">₹18</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                      ₹24
                       </span>
                     </div>
                     <div>
@@ -220,7 +220,7 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$24</span>
+                      <span className="text-dark">₹24</span>
                     </div>
                     <div>
                      <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
@@ -318,9 +318,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$32</span>{" "}
+                      <span className="text-dark">₹32</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $35
+                      ₹35
                       </span>
                     </div>
                     <div>
@@ -422,9 +422,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$3</span>{" "}
+                      <span className="text-dark">₹3</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $5
+                      ₹5
                       </span>
                     </div>
                     <div>
@@ -523,9 +523,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">$13</span>{" "}
+                      <span className="text-dark">₹13</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $18
+                      ₹18
                       </span>
                     </div>
                     <div>
@@ -627,9 +627,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$18</span>{" "}
+                      <span className="text-dark">₹18</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $24
+                      ₹24
                       </span>
                     </div>
                     <div>
@@ -728,7 +728,7 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$24</span>
+                      <span className="text-dark">₹24</span>
                     </div>
                     <div>
                      <Link href="#!" className="btn btn-primary btn-sm  "onClick={handleAddClick}>
@@ -826,9 +826,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$32</span>{" "}
+                      <span className="text-dark">₹32</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $35
+                      ₹35
                       </span>
                     </div>
                     <div>
@@ -927,9 +927,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between align-items-center mt-3">
                     <div>
-                      <span className="text-dark">$3</span>{" "}
+                      <span className="text-dark">₹3</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $5
+                      ₹5
                       </span>
                     </div>
                     <div>
@@ -1028,9 +1028,9 @@ const ProductItem = () => {
                   </div>
                   <div className="d-flex justify-content-between mt-4">
                     <div>
-                      <span className="text-dark">$13</span>{" "}
+                      <span className="text-dark">₹13</span>{" "}
                       <span className="text-decoration-line-through text-muted">
-                        $18
+                      ₹18
                       </span>
                     </div>
                     <div>

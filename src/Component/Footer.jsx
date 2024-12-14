@@ -312,10 +312,10 @@ const Footer = () => {
                   © {year} All Rights Reserved By _
                   
                   <Link
-                    to="https://nigammishra.github.io/nigam-portfolio/"
+                    to=""
                     target="_blank"
                   >
-                     @nigammishra
+                     @harsha
                   </Link>
                 </div>
               </div>

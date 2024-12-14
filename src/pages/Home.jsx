@@ -1,4 +1,5 @@
 import slider1 from "../images/slide-1.jpg";
+import hero from "../images/blog-img-5.jpg";
 import abouticon from "../images/about-icons-1.svg";
 import slider2 from "../images/slider-2.jpg";
 import adbanner1 from "../images/ad-banner-1.jpg";
@@ -42,7 +43,7 @@ import product9 from "../images/category-snack-munchies.jpg";
 import product10 from "../images/category-tea-coffee-drinks.jpg";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import ProductItem from "../ProductList/ProductItem";
+import ProductPage from "../ProductList/ProductItem";
 import Slider from "react-slick";
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
@@ -239,33 +240,35 @@ const Home = () => {
                     data-bs-ride="carousel"
                   >
                     <div className="carousel-inner">
-                      <div className="carousel-item active">
-                        <div
-                          style={{
-                            background: `url(${slider1}) no-repeat`,
-                            backgroundSize: "cover",
-                            borderRadius: ".5rem",
-                            backgroundPosition: "center",
-                          }}
-                        >
-                          <div className="ps-lg-12 py-lg-16 col-xxl-5 col-md-7 py-14 px-8 text-xs-center">
-                            <span className="badge text-bg-warning">
-                              Opening Sale Discount 50%
-                            </span>
-                            <h2 className="text-dark display-5 fw-bold mt-4">
-                              SuperMarket Daily <br /> Fresh Grocery
-                            </h2>
-                            <p className="lead">
-                              Introduced a new model for online grocery shopping
-                              and convenient home delivery.
-                            </p>
-                            <Link to="#!" className="btn btn-dark mt-3">
-                              Shop Now{" "}
-                              <i className="feather-icon icon-arrow-right ms-1" />
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
+                    <div className="carousel-item active">
+                    <div
+                     style={{
+                      background: `url(${hero}) no-repeat`,
+                      backgroundSize: "cover",
+                      borderRadius: ".5rem",
+                      backgroundPosition: "center",
+                      }}
+                    >
+                    <div className="pe-lg-20 py-lg-16 col-xxl-5 col-md-15 ms-auto text-xs-center py-14 px-8">
+                      <span className="badge text-bg-warning">
+                      Opening Sale Discount 50%
+                      </span>
+                      <h2 className="text-dark display-5 fw-bold mt-4">
+                      SuperMarket Daily <br /> Fresh Grocery
+                      </h2>
+                      <p className="lead">
+                      Introduced a new model for online grocery shopping
+                      and convenient home delivery.
+                      </p>
+                      <Link to="#!" className="btn btn-dark mt-3">
+                      Shop Now{" "}
+                      <i className="feather-icon icon-arrow-right ms-1" />
+                    </Link>
+                  </div>
+                  </div>
+                  </div>
+  
+
                       <div className="carousel-item">
                         <div
                           style={{
@@ -323,24 +326,24 @@ const Home = () => {
                 </div>
               </section>
             </>
-            <>
+            {/* <>
               <section className="mt-8">
-                {/* contianer */}
+                {
                 <div className="container ">
                   <div className="row">
-                    {/* col */}
+                    
                     <Slide direction="down">
                       <div className="col-12">
-                        {/* cta */}
+                        
                         <div className="bg-light d-lg-flex justify-content-between align-items-center py-6 py-lg-3 px-8 rounded-3 text-center text-lg-start">
-                          {/* img */}
+                          
                           <div className="d-lg-flex align-items-center">
                             <img
                               src={abouticon}
                               alt="about-icon"
                               className="img-fluid"
                             />
-                            {/* text */}
+                            
                             <div className="ms-lg-4">
                               <h1 className="fs-2 mb-1">
                                 Welcome to FreshCart
@@ -353,7 +356,7 @@ const Home = () => {
                             </div>
                           </div>
                           <div className="mt-3 mt-lg-0">
-                            {/* btn */}
+                            
                             <Link to="#" className="btn btn-dark">
                               Download FreshCart App
                             </Link>
@@ -364,7 +367,7 @@ const Home = () => {
                   </div>
                 </div>
               </section>
-            </>
+            </> */}
             <>
               {/* section */}
               <section className="mt-8">
@@ -846,128 +849,9 @@ const Home = () => {
               </section>
             </>
             <>
-              <ProductItem />
+              <ProductPage />
             </>
-            <>
-              {/* cta section */}
-              <section>
-                <div
-                  className="container"
-                  style={{
-                    background: `url(${map})no-repeat`,
-                    backgroundSize: "cover",
-                  }}
-                >
-                  {/* <hr className="my-lg-14 my-8"> */}
-                  {/* row */}
-                  <div className="row align-items-center text-center justify-content-center">
-                    <div className=" col-lg-6 col-md-6 fade-in-left">
-                      <Slide direction="left">
-                        <div className="mb-6">
-                          <div className="mb-7">
-                            {/* heading */}
-                            <h1>Get the FreshCart app</h1>
-                            <h5 className="mb-0">
-                              We will send you a link, open it on your phone to
-                              download the app.
-                            </h5>
-                          </div>
-                          <div className="mb-5">
-                            {/* form check */}
-                            <div className="form-check form-check-inline">
-                              <input
-                                className="form-check-input"
-                                type="radio"
-                                name="flexRadioDefault"
-                                id="flexRadioDefault1"
-                              />
-                              <label
-                                className="form-check-label"
-                                htmlFor="flexRadioDefault1"
-                              >
-                                Email
-                              </label>
-                            </div>
-                            {/* form check */}
-                            <div className="form-check form-check-inline">
-                              <input
-                                className="form-check-input"
-                                type="radio"
-                                name="flexRadioDefault"
-                                id="flexRadioDefault2"
-                                defaultChecked
-                              />
-                              <label
-                                className="form-check-label"
-                                htmlFor="flexRadioDefault2"
-                              >
-                                Phone
-                              </label>
-                            </div>
-                            {/* form */}
-                            {/* <form className="row g-3 mt-2">
-
-          
-          <div className="col-6 ">
-            
-            <input type="text" className="form-control" placeholder="Phone">
-          </div>
-           
-          <div className="col-6">
-            <button type="submit" className="btn btn-primary mb-3">Share app link</button>
-          </div>
-        </form> */}
-                          </div>
-                          <div>
-                            {/* app */}
-                            {/* <small>Download app from</small> */}
-                            <ul className="list-inline mb-0 mt-2 ">
-                              {/* list item */}
-                              <li className="list-inline-item">
-                                {/* img */}
-                                <Link to="#!">
-                                  {" "}
-                                  <img
-                                    src={appstore}
-                                    alt="appstore"
-                                    style={{ width: 140 }}
-                                  />
-                                </Link>
-                              </li>
-                              <li className="list-inline-item">
-                                {/* img */}
-                                <Link to="#!">
-                                  {" "}
-                                  <img
-                                    src={googleplay}
-                                    alt="googleplay"
-                                    style={{ width: 140 }}
-                                  />
-                                </Link>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </Slide>
-                    </div>
-                    <div className=" offset-lg-2 col-lg-4 col-md-6 fade-zoom">
-                      <Slide direction="right">
-                        <div className="text-lg-start">
-                          {/* img */}
-                          <img
-                            src={iphone}
-                            alt="iphone"
-                            className=" img-fluid"
-                          />
-                        </div>
-                      </Slide>
-                    </div>
-                  </div>
-                  {/* <hr className="my-lg-14 my-8"> */}
-                </div>
-              </section>
-            </>
-            <>
+            {/* <>
               <section>
                 <div className="container">
                   <div className="row">
@@ -978,7 +862,7 @@ const Home = () => {
                         </h3>
                         <div className="wt-separator bg-primarys"></div>
                         <div className="wt-separator2 bg-primarys"></div>
-                        {/* <p>Connecting with entrepreneurs online, is just a few clicks away.</p> */}
+                       
                       </div>
                     </div>
                   </div>
@@ -1471,7 +1355,7 @@ const Home = () => {
                   </div>
                 </div>
               </section>
-            </>
+            </> */}
             <>
               <section className="my-lg-14 my-8">
                 <div className="container" style={{ marginTop: 50 }}>

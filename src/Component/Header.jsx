@@ -20,7 +20,7 @@ const Header = () => {
   return (
     <div>
       <>
-        <div className="border-bottom pb-5">
+        {/* <div className="border-bottom pb-5">
           <div className="bg-light py-1">
             <div className="container">
               <div className="row">
@@ -118,7 +118,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </>
       <>
         <div className="container  displaydesign">
@@ -326,42 +326,12 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li className="nav-item dmenu dropdown">
-            <Link
-              className="nav-link dropdown-toggle"
-              to="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              About
+          <li className="nav-item">
+            <Link className="nav-link" to="/Contact">
+            Contact Us
             </Link>
-            <div
-              className="dropdown-menu sm-menu"
-              aria-labelledby="navbarDropdown"
-            >
-              <Link class="dropdown-item" to="/Blog">
-                Blog
-              </Link>
-              {/* <Link className="dropdown-item" to="pages/blog-single.html">
-                    Blog Single
-                  </Link> */}
-              <Link className="dropdown-item" to="/BlogCategory">
-                Blog Category
-              </Link>
-              <Link className="dropdown-item" to="/AboutUs">
-                About us
-              </Link>
-              {/* <Link className="dropdown-item" to="pages/404error.html">
-                    404 Error
-                  </Link> */}
-              <Link className="dropdown-item" to="/Contact">
-                Contact
-              </Link>
-            </div>
           </li>
+          
 
           <li className="nav-item dmenu dropdown">
             <Link
@@ -463,7 +433,7 @@ const Header = () => {
                 </div>
               </li> */}
 
-          <li className="nav-item dropdown megamenu-li dmenu">
+          {/* <li className="nav-item dropdown megamenu-li dmenu">
             <Link
               className="nav-link dropdown-toggle"
               to="/Shop"
@@ -579,7 +549,7 @@ const Header = () => {
                   </div>
                 </div>
 
-                {/* <div className="row"> */}
+                
                 <div className="col-sm-6 col-lg-3 border-right mb-4">
                   <div className="card border-0">
                     <img
@@ -603,9 +573,9 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-              {/* </div> */}
+              
             </div>
-          </li>
+          </li> */}
 
           <li className="nav-item dmenu dropdown">
             <Link

@@ -89,7 +89,7 @@ const ShopCart = () => {
                             {/* title */}
                             <h6 className="mb-0">Haldiram's Sev Bhujia</h6>
                             <span>
-                              <small className="text-muted">.98 / lb</small>
+                              <small className="text-muted">20g</small>
                             </span>
                             {/* text */}
                             <div className="mt-2 small ">
@@ -150,7 +150,7 @@ const ShopCart = () => {
                           </div>
                           {/* price */}
                           <div className="col-2 text-lg-end text-start text-md-end col-md-2">
-                            <span className="fw-bold">$5.00</span>
+                            <span className="fw-bold">₹5.00</span>
                           </div>
                         </div>
                       </li>
@@ -231,9 +231,9 @@ const ShopCart = () => {
                           </div>
                           {/* price */}
                           <div className="col-2 text-lg-end text-start text-md-end col-md-2">
-                            <span className="fw-bold text-danger">$20.00</span>
+                            <span className="fw-bold text-danger">₹20.00</span>
                             <div className="text-decoration-line-through text-muted small">
-                              $26.00
+                            ₹26.00
                             </div>
                           </div>
                         </div>
@@ -315,9 +315,9 @@ const ShopCart = () => {
                           </div>
                           {/* price */}
                           <div className="col-2 text-lg-end text-start text-md-end col-md-2">
-                            <span className="fw-bold">$15.00</span>
+                            <span className="fw-bold">₹15.00</span>
                             <div className="text-decoration-line-through text-muted small">
-                              $20.00
+                            ₹20.00
                             </div>
                           </div>
                         </div>
@@ -372,7 +372,6 @@ const ShopCart = () => {
                               </Link>
                             </div>
                           </div>
-                          {/* input group */}
                           <div className="col-3 col-md-3 col-lg-2">
                             <div className="input-group  flex-nowrap justify-content-center  ">
                               <input
@@ -399,9 +398,9 @@ const ShopCart = () => {
                           </div>
                           {/* price */}
                           <div className="col-2 text-lg-end text-start text-md-end col-md-2">
-                            <span className="fw-bold">$15.00</span>
+                            <span className="fw-bold">₹15.00</span>
                             <div className="text-decoration-line-through text-muted small">
-                              $20.00
+                            ₹20.00
                             </div>
                           </div>
                         </div>
@@ -483,9 +482,9 @@ const ShopCart = () => {
                           </div>
                           {/* price */}
                           <div className="col-2 text-lg-end text-start text-md-end col-md-2">
-                            <span className="fw-bold">$15.00</span>
+                            <span className="fw-bold">₹15.00</span>
                             <div className="text-decoration-line-through text-muted small">
-                              $25.00
+                            ₹25.00
                             </div>
                           </div>
                         </div>
@@ -519,21 +518,21 @@ const ShopCart = () => {
                             <div className="me-auto">
                               <div>Item Subtotal</div>
                             </div>
-                            <span>$70.00</span>
+                            <span>₹70.00</span>
                           </li>
                           {/* list group item */}
                           <li className="list-group-item d-flex justify-content-between align-items-start">
                             <div className="me-auto">
                               <div>Service Fee</div>
                             </div>
-                            <span>$3.00</span>
+                            <span>₹3.00</span>
                           </li>
                           {/* list group item */}
                           <li className="list-group-item d-flex justify-content-between align-items-start">
                             <div className="me-auto">
                               <div className="fw-bold">Subtotal</div>
                             </div>
-                            <span className="fw-bold">$67.00</span>
+                            <span className="fw-bold">₹67.00</span>
                           </li>
                         </ul>
                       </div>
@@ -543,7 +542,7 @@ const ShopCart = () => {
                           className="btn btn-primary btn-lg d-flex justify-content-between align-items-center"
                           type="submit"
                         >
-                          Go to Checkout <span className="fw-bold">$67.00</span>
+                          Go to Checkout <span className="fw-bold">₹67.00</span>
                         </button>
                       </div>
                       {/* text */}
